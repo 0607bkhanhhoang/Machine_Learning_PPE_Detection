@@ -2,7 +2,7 @@ import os
 from ultralytics import YOLO
 
 # Initialize YOLO with the Model Name
-model = YOLO("best.pt")
+model = YOLO("Training_Weight_File/best.pt")
 
 try:
     # Perform segmentation and get results
